@@ -4,7 +4,7 @@
   margin-left: 48px;
   margin-right: 48px;
   max-height: 52px;
-  width: calc(100% - 2 * 48px)
+  width: calc(100% - 2 * 48px);
 }
 
 @media screen and (max-width: 768px) {
