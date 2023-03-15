@@ -23,10 +23,11 @@
   right: 0;
   left: 0;
   z-index: -1;
+  transition: opacity 0.3s ease-out;
 }
 
 .cover__background:hover::before {
-  opacity: 70%;
+  opacity: 80%;
 }
 
 @media screen and (max-width: 1024px) {
