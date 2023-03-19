@@ -5,16 +5,16 @@
   justify-content: space-between;
 }
 
-@media screen and (max-width: 768px) {
+@media (min-width: 768px) and (max-width: 1023px) {
   .footer {
     margin: 88px 24px 0;
     max-width: calc(100% - 2 * 24px);
   }
 }
 
-@media screen and (max-width: 570px) {
+@media (min-width: 320px) and (max-width: 767px) {
   .footer {
-    margin: 64px auto 0;
+    margin: 64px 16px 0;
     width: calc(100% - 2 * 16px);
     flex-direction: column;
   }

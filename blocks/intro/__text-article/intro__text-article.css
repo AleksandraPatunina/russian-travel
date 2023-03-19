@@ -2,13 +2,13 @@
   max-width: 690px;
 }
 
-@media screen and (max-width: 768px) {
+@media (min-width: 531px) and (max-width: 1023px) {
   .intro__text-article {
     max-width: 720px;
   }
 }
 
-@media screen and (max-width: 320px) {
+@media (min-width: 320px) and (max-width: 530px) {
   .intro__text-article {
     max-width: 288px;
   }

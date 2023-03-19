@@ -7,20 +7,20 @@
   align-items: center;
 }
 
-@media screen and (max-width: 1024px) {
+@media (min-width: 1024px) and (max-width: 1279px) {
   .places {
     max-width: calc(100% - 2 * 48px);
   }
 }
 
-@media screen and (max-width: 768px) {
+@media (min-width: 768px) and (max-width: 1023px) {
   .places {
     margin-top: 88px;
     max-width: calc(100% - 2 * 24px);
   }
 }
 
-@media screen and (max-width: 590px) {
+@media (min-width: 320px) and (max-width: 767px) {
   .places {
     margin-top: 64px;
     max-width: 100%;

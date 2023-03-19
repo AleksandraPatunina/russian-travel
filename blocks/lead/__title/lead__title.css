@@ -11,7 +11,7 @@
   /*оптимизировать читаемость*/
 }
 
-@media screen and (max-width: 668px) {
+@media (min-width: 320px) and (max-width: 767px) {
   .lead__title {
     font-size: 40px;
     max-width: 288px;
